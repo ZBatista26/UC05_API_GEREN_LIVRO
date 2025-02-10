@@ -1,19 +1,18 @@
-### Rota para pegar toddos os livros
+### Rota para litar os livros
 GET http://localhost:3000/livros
 
 ### fechando a requisição
 
-### Rota criando os livros
-POST http://localhost:3000/livros
+### Rota para criar os livros
+PUT  http://localhost:3000/1
 Content-Type: application/json
 
 {
-    "id":1,
     "titulo":"Harry potter e a pedra filosofal",
     "autor": "J.K.Rowling",
     "publicacao":1997,
     "genero":"fantasiad",
     "sinopse":"Deveria ser um livro só para o público infanto-juvenil. Mas, no mundo inteiro, gente de idades variadas lê Harry Potter - um fenômeno da literatura mundial que desafia crenças e estimativas. Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural."
-    
 }
+
 ###fechamenro da requisição
